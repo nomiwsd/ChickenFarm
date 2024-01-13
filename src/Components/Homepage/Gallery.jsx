@@ -13,7 +13,7 @@ import { faArrowRightLong, faPlay } from "@fortawesome/free-solid-svg-icons";
 const Gallery = () => {
   return (
     <section>
-      <div className="px-24 py-32">
+      <div className="px-4 md:px-16 md:py-32">
         <div className=" flex flex-col justify-center items-center gap-5 mb-24">
           <hr className="w-20 bg-primarycl border-primarycl h-1" />
           <h1 className="text-5xl font-opensans font-semibold leading-9">
@@ -21,14 +21,14 @@ const Gallery = () => {
           </h1>
         </div>
         <div className="grid grid-cols-1 gap-y-4">
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div className="relative overflow-hidden">
               <img src={mainimg} alt="" className="w-full h-full cardimg hover:scale-110" />
               <div className="absolute bottom-0 left-0 right-0 w-full bg-gradient-to-t from-black via-transparent to-transparent p-4 transition duration-300 ease-in-out  ">
                 <h4 className="text-white font-merriweather font-bold gallery_para">{`Words which don't look even slightly`}</h4>
               </div>
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
               {" "}
               <div className="relative overflow-hidden">
                 <img src={smallimg1} alt="" className="w-full max-h-full cardimg hover:scale-110" />
@@ -44,7 +44,7 @@ const Gallery = () => {
               </div>
             </div>
           </div>
-          <div className="grid grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="relative overflow-hidden">
               <img src={smallimg3} alt="" className="w-full max-h-full cardimg hover:scale-110" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4 transition duration-300 ease-in-out ">
@@ -73,7 +73,7 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="max-h-screen questions_bg bg-cover bg-no-repeat px-24 py-32 grid grid-cols-2 gap-5">
+      <div className="questions_bg bg-cover bg-no-repeat px-4 py-12 md:px-16 md:py-32 justify-center items-center grid grid-cols-1 md:grid-cols-2 gap-5 mt-4">
         <div className="flex justify-center items-center relative">
           <img src={videoimg} alt="" />
           <div className="border-white border-4 rounded-full p-3 min-w-16 flex justify-center items-center absolute">
@@ -84,7 +84,7 @@ const Gallery = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6">
-          <h1 className="text-4xl font-opensans font-semibold leading-9 text-white">
+          <h1 className="text-2xl md:text-4xl font-opensans font-semibold leading-9 text-white">
             {`You've got questions, we've got answers.`}
           </h1>
           <hr className="w-20 bg-[#DB4436] border-[#DB4436] h-1" />
@@ -100,15 +100,15 @@ const Gallery = () => {
         </div>
       </div>
 
-      <div className="px-24 py-32">
+      <div className="px-4 py-12 md:px-16 md:py-32">
         <div className=" flex flex-col justify-center items-center gap-5 mb-24">
           <hr className="w-20 bg-primarycl border-primarycl h-1" />
-          <h1 className="text-5xl font-opensans font-semibold leading-9">
+          <h1 className="text-2xl md:text-5xl font-opensans font-semibold leading-9">
             Our Recent News
           </h1>
           <h4 className=" font-merriweather font-medium">From Our Blog</h4>
         </div>
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           <div className=" flex flex-col justify-start shadow-2xl">
             <img src={eggimg} alt="" className="w-full h-full" />
             <div className="px-4 py-4 flex flex-col gap-4">

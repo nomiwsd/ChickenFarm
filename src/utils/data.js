@@ -2,6 +2,19 @@ import avatarimg2 from "../assets/avatarimg2.jpg"
 import avatarimg1 from "../assets/avatarimg1.jpg"
 import avatarimg3 from "../assets/avatarimg3.jpg"
 import avatarimg4 from "../assets/avatarimg4.jpg"
+import cardimg1 from '../assets/cardimg1.jpg'
+import cardimg2 from '../assets/cardimg2.jpg'
+import cardimg3 from '../assets/cardimg3.jpg'
+import {
+  faPagelines,
+  faSquareFontAwesome,
+} from "@fortawesome/free-brands-svg-icons";
+import {
+  faGlobe,
+  faTree,
+  faUsers,
+  faTint,
+} from "@fortawesome/free-solid-svg-icons";
 export const testimonaildata = [
     {
       id: 1,
@@ -32,4 +45,69 @@ export const testimonaildata = [
         "Lorem ipsum edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. ",
     },
   ];
+
+  export const aboutuscard=[
+    {
+    id:1,
+    cardimage: cardimg1,
+    cardtitle:'Spiciatis unde omnis iste',
+    carddesc:'Sed ut perspiciatis unde omnis iste natus error sit voluptaac cusantium doloremque laudantium, totam rem aperiam per spiciatis unde omnis iste natus'
+  },
+    {
+    id:2,
+    cardimage: cardimg2,
+    cardtitle:'Spiciatis unde omnis iste',
+    carddesc:'Sed ut perspiciatis unde omnis iste natus error sit voluptaac cusantium doloremque laudantium, totam rem aperiam per spiciatis unde omnis iste natus'
+  },
+    {
+    id:3,
+    cardimage: cardimg3,
+    cardtitle:'Spiciatis unde omnis iste',
+    carddesc:'Sed ut perspiciatis unde omnis iste natus error sit voluptaac cusantium doloremque laudantium, totam rem aperiam per spiciatis unde omnis iste natus'
+  },
+];
+
+export const cardinputs = [
+  {
+    id: 1,
+    icon: faSquareFontAwesome ,
+    title: "Broilers",
+    description:
+      "We offer a full range of products to support healthy broiler performance.",
+  },
+  {
+    id: 2,
+    icon: faTree,
+    title: "Dynamic Ecology",
+    description: `Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.'`,
+  },
+  {
+    id: 3,
+    icon: faUsers,
+    title: "Breeders",
+    description:
+      "To ensure a good nutrition and production programs are tailored to support optimum performance.",
+  },
+  {
+    id: 4,
+    icon: faPagelines,
+    title: "Save Tropic Forests",
+    description:
+      "Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.",
+  },
+  {
+    id: 5,
+    icon: faGlobe,
+    title: "Layers",
+    description:
+      "We devise cost-effective nutritional solutions to guarantee optimal laying cycles and egg quality.",
+  },
+  {
+    id: 6,
+    icon: faTint,
+    title: "Organic Ecosystem",
+    description:
+      "Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.",
+  },
+];
   

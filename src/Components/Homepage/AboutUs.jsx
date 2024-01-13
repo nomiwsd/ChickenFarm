@@ -15,19 +15,19 @@ import { Scrollbar } from "swiper/modules";
 const AboutUs = () => {
   return (
     <section>
-      <div className="py-32 px-24">
+      <div className="px-4 py-12 md:py-32 md:px-16">
         <div className="flex flex-col justify-center items-center gap-2">
           <h1 className="text-4xl font-opensans font-semibold">About Us</h1>
-          <p className="text-3xl font-opensans font-extralight ">
+          <p className="text-3xl font-opensans font-extralight text-center">
             Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
             posuere cubilia
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-6 my-10">
-          <img src={mainimg} alt="" />
-          <div className="flex flex-col gap-5">
-            <img src={upperimg} alt="" className="w-full h-full" />
-            <img src={lowerimg} alt="" className="w-full h-full" />
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 my-10">
+          <img src={mainimg} alt="" className="w-full h-full object-fill " />
+          <div className="flex flex-col gap-3 md:gap-6">
+            <img src={upperimg} alt="" className="w-full h-full object-fill" />
+            <img src={lowerimg} alt="" className="w-full h-full object-fill " />
           </div>
           <div className="flex flex-col justify-start items-start gap-10">
             <p className="text-base font-opensans font-normal leading-6 text-[#999999]">
@@ -60,18 +60,30 @@ const AboutUs = () => {
       <div className="min-h-screen testimonialbg bg-cover bg-no-repeat py-40">
         <div className=" flex flex-col justify-center items-center gap-5">
           <hr className="w-20 bg-primarycl border-primarycl h-1" />
-          <h1 className="text-5xl font-opensans font-semibold leading-9">
+          <h1 className=" text-3xl md:text-5xl font-opensans font-semibold leading-9">
             Some Nice Words
           </h1>
         </div>
-        <div className="px-24 py-16">
+        <div className="px-4 md:px-24 md:py-16">
           <Swiper
-            slidesPerView={3}
             spaceBetween={30}
             scrollbar={{
               hide: false,
             }}
             modules={[Scrollbar]}
+            breakpoints={{
+              // when window width is >= 1024px (tablet and larger)
+              1024: {
+                slidesPerView: 3,
+              },
+              768: {
+                slidesPerView: 2,
+              },
+              // when window width is >= 0px (mobile and larger)
+              0: {
+                slidesPerView: 1,
+              },
+            }}
             className="mySwiper"
           >
             {testimonaildata &&
