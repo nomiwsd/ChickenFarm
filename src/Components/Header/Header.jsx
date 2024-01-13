@@ -103,7 +103,7 @@ const Header = () => {
           </nav>
         </div>
       )}
-      <div className="responsive-diagonal flex justify-center items-center">
+      <div className="hidden responsive-diagonal lg:flex lg:justify-end xl:justify-center items-center px-4">
       <h5 className="text-white text-base font-montserrat font-bold">+124 548 698 254</h5>
       </div>
     </header>

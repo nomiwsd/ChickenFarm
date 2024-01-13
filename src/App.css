@@ -123,28 +123,6 @@ input[type="radio"] {
   will-change: transform;
 }
 
-.call-number-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #5da204;
-  color: white;
-  height: 100%;
-  border-left: 48px solid #fff;
-  border-top: 80px solid #83ca13;
-  position: relative;
-  overflow: hidden;
-}
-
-.call-number-section h5 {
-  color: #fff;
-  font-size: 20px;
-  font-weight: bold;
-  letter-spacing: 1px;
-  margin: 0;
-  position: relative;
-  top: -40px; /* Adjust as needed */
-}
 
 .responsive-diagonal {
   width: 20vw;
