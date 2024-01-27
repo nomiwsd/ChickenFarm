@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logofarm.png";
 import { HiMiniBars3 } from "react-icons/hi2";
+import { GrClose } from "react-icons/gr";
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
 
@@ -64,7 +65,15 @@ const Header = () => {
       </div>
       {/* Full Screen Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed top-12 left-0 right-0 bg-white z-50 lg:hidden">
+        <div className="fixed top-0 left-0 h-screen right-0 bg-white z-50 lg:hidden">
+          <div className="flex justify-between items-center px-4">
+            <div className="py-3">
+              <img src={logo} alt="Logo" className="max-w-28 h-20" />
+            </div>
+            <div>
+              <GrClose onClick={closeMenu} className="text-lg font-bold" />
+            </div>
+          </div>
           <nav className="flex flex-col justify-center items-center gap-8 pt-20">
             <ul>
               <li className="group hover:border-b-[3px] hover:border-b-primarycl pt-6 pb-8">
@@ -104,7 +113,7 @@ const Header = () => {
         </div>
       )}
       <div className="hidden responsive-diagonal lg:flex lg:justify-end xl:justify-center items-center px-4">
-      <h5 className="text-white text-base font-montserrat font-bold">+92 123 5466982</h5>
+        <h5 className="text-white text-base font-montserrat font-bold">+92 123 5466982</h5>
       </div>
     </header>
   );
