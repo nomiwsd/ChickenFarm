@@ -79,21 +79,21 @@ export const cardinputs = [
     id: 2,
     icon: faTree,
     title: "Dynamic Ecology",
-    description: `Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.'`,
+    description: `Capacity building of BFA and its key decision makers for welfare of industry with active participation in various activities.`,
   },
   {
     id: 3,
     icon: faUsers,
     title: "Breeders",
     description:
-      "To ensure a good nutrition and production programs are tailored to support optimum performance.",
+      "Training of veterinary Doctors on modern standards and free of cost/subsidized services for small and medium scale farmers.",
   },
   {
     id: 4,
     icon: faPagelines,
     title: "Save Tropic Forests",
     description:
-      "Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.",
+      "Consumer Education by targeting consumers at various levels using  social, electronic and print media for awareness and education.",
   },
   {
     id: 5,
@@ -107,7 +107,7 @@ export const cardinputs = [
     icon: faTint,
     title: "Organic Ecosystem",
     description:
-      "Fusce non hendrerit ante. Curabitur in libero neque. Nulla at vestibulum massa. Fusce feugiat tellus fermen tum.",
+      "Capacity building of farmers through phase wise approach for quality and efficient production of cheap source of protein.",
   },
 ];
   

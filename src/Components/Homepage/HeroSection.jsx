@@ -50,19 +50,20 @@ const HeroSection = () => {
       headertitle: "We Farm Chickens ethically and profitably",
       title: `Let's Recycle Everything`,
       icon: faRecycle,
-      content: `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin facilisis, velit non fringilla pharetra, elit odio tincidunt mi, non`,
+      content: `Taking all measures to ensure good quality of feed, Day old chicks, medicines and other products being used by farmers 
+      `,
     },
     {
       headertitle: "We choose the right beeding for better broilers",
       title: `Let's Protect Mother Earth`,
       icon: faLeaf,
-      content: `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin facilisis, velit non fringilla pharetra, elit odio tincidunt mi, non`,
+      content: `Consumer education through seminars and awareness session to enhance consumption of cheap source of protein `,
     },
     {
         headertitle: "Our Call, anytime ,anywhere!",
       title: `You’ve got questions now.`,
       icon: faMap,
-      content: `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin facilisis, velit non fringilla pharetra, elit odio tincidunt mi, non`,
+      content: `Using social, electronic and print media to achieve the elegant service from us`,
     },
   ];
   return (

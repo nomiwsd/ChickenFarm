@@ -14,8 +14,8 @@ const Header = () => {
   return (
     <header className="flex justify-between bg-white relative md:sticky md:top-0 z-30 shadow-2xl">
       <div className="flex gap-16 justify-between items-center px-4">
-        <div>
-          <img src={logo} alt="Logo" className="max-w-28" />
+        <div className="py-3">
+          <img src={logo} alt="Logo" className="max-w-28 h-20" />
         </div>
         <nav>
           <ul
@@ -104,7 +104,7 @@ const Header = () => {
         </div>
       )}
       <div className="hidden responsive-diagonal lg:flex lg:justify-end xl:justify-center items-center px-4">
-      <h5 className="text-white text-base font-montserrat font-bold">+124 548 698 254</h5>
+      <h5 className="text-white text-base font-montserrat font-bold">+92 123 5466982</h5>
       </div>
     </header>
   );

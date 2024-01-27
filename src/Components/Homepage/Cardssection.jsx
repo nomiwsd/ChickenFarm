@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { cardinputs } from "../../utils/data";
 
 const Cardssection = () => {
-  
+
   return (
     <section>
       {" "}
@@ -14,7 +14,7 @@ const Cardssection = () => {
               <div className="flex gap-2 md:gap-3" key={item.id}>
                 <div className="bg-[#2DBF00] w-20 h-20 rounded-full px-8 py-3 flex items-center justify-center">
                   <span className="text-2xl text-white">
-                    <FontAwesomeIcon icon={item.icon}/>
+                    <FontAwesomeIcon icon={item.icon} />
                   </span>
                 </div>
                 <div className="flex flex-col gap-2 md:gap-3">
@@ -37,10 +37,7 @@ const Cardssection = () => {
             </h2>
             <hr className="w-20 bg-[#DB4436] border-[#DB4436] h-1" />
             <p className="text-sm md:text-lg  font-normal font-opensans text-white">
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia Curae; Proin <br className="hidden lg:block" />
-              facilisis, velit non fringilla pharetra, elit odio tincidunt mi,
-              non
+              Using social, electronic and print media to achieve the consumer feedback and also best connection with customers.
             </p>
             <button className="bg-primarycl text-white text-base font-semibold font-opensans w-36 rounded-md py-3 px-3">
               See More

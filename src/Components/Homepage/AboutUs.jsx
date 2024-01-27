@@ -19,8 +19,7 @@ const AboutUs = () => {
         <div className="flex flex-col justify-center items-center gap-2">
           <h1 className="text-4xl font-opensans font-semibold">About Us</h1>
           <p className="text-3xl font-opensans font-extralight text-center">
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-            posuere cubilia
+            This was founded in 2016 and formally registered in 2017 with aim to develop healthy working relationship between farmers and other industry stakeholders.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-6 my-10">
@@ -29,19 +28,17 @@ const AboutUs = () => {
             <img src={upperimg} alt="" className="w-full h-full object-fill" />
             <img src={lowerimg} alt="" className="w-full h-full object-fill " />
           </div>
-          <div className="flex flex-col justify-start items-start gap-10">
-            <p className="text-base font-opensans font-normal leading-6 text-[#999999]">
-              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-              posuere cubilia Curae; Proin facilisis, velit non fringilla
-              pharetra,
-            </p>
-            <p className="text-base font-opensans font-normal leading-6 text-[#999999]">
-              Elit odio tincidunt mi, non Vestibulum ante ipsum primis in
-              faucibus orci luctus et ultrices posuere cubilia Curae; Proin
-              facilisis, velit non fringilla pharetra, elit odio tincidunt mi,
-              non Vestibulum ante ipsum primis in faucibus orci luctus et
-              ultrices posuere cubilia Curae; Proin facilisis, velit non
-              fringilla pharetra, elit odio tincidunt mi, non Vestibulum ante
+          <div className="flex flex-col justify-start items-start gap-6">
+            <h2 className="text-xl font-opensans font-bold leading-6 text-black">
+              Objectives of Broiler Farmers Association (BFA)
+            </h2>
+            <p className="text-lg font-opensans font-medium leading-6 text-[#999999] flex flex-col gap-3">
+              BFA is focusing on various initiates leading to health growth of industry with focus on betterment of more then 6000 Broiler farmers in Punjab by ensuring:
+              <span className="text-base font-opensans font-normal text-[#999999]">1: Representation at various decision making forums </span>
+              <span  className="text-base font-opensans font-normal text-[#999999]">2: Meeting with key stakeholders including Govt entities, Local and international bodies, various industry players  i.e Dealers, Feed Millers, Pakistan Poultry Association. BFA is doing this as only farmer representative body </span>
+              <span className="text-base font-opensans font-normal text-[#999999]">3: Taking all measures to ensure good quality of feed, Day old chicks, medicines and other products being used by farmers</span>
+              <span className="text-base font-opensans font-normal text-[#999999]">4: Consumer Education through seminars and awareness session to enhance consumption of cheap source of protein
+              </span>
             </p>
             <h3 className="text-base font-opensans font-extrabold leading-6 text-[#020202] capitalize ">
               Do You Need Fresh And Healthy Meat?
@@ -109,7 +106,7 @@ const AboutUs = () => {
               ))}
           </Swiper>
         </div>
-        
+
       </div>
     </section>
   );
