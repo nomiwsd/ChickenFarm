@@ -1,8 +1,8 @@
-import avatarimg2 from "../assets/avatarimg2.jpg"
-import avatarimg1 from "../assets/avatarimg1.jpg"
-import avatarimg3 from "../assets/avatarimg3.jpg"
-import avatarimg4 from "../assets/avatarimg4.jpg"
-import cardimg1 from '../assets/cardimg1.jpg'
+import avatarimg2 from "../assets/avatarimg2.jpeg"
+import avatarimg1 from "../assets/avatarimg1.jpeg"
+import avatarimg3 from "../assets/avatarimg3.jpeg"
+import avatarimg4 from "../assets/avatarimg2.jpeg"
+import cardimg1 from '../assets/cardimg1.jpeg'
 import cardimg2 from '../assets/cardimg2.jpg'
 import cardimg3 from '../assets/cardimg3.jpg'
 import {
@@ -19,28 +19,28 @@ export const testimonaildata = [
     {
       id: 1,
       Image: avatarimg1,
-      clientname: "Valterri Erkin",
+      clientname: "Dr-Malik Khurram Shahzad Khokhar",
       clientfeedback:
         "Lorem ipsum edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. ",
     },
     {
       id: 2,
       Image: avatarimg2,
-      clientname: "Anar Noorwood",
+      clientname: "Masroor Ahmed Khan",
       clientfeedback:
         "Lorem ipsum edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. ",
     },
     {
       id: 3,
       Image: avatarimg3,
-      clientname: "Kory Junior",
+      clientname: "Muhammad Asif",
       clientfeedback:
         "Lorem ipsum edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. ",
     },
     {
       id: 4,
       Image: avatarimg4,
-      clientname: "Alan Valdokh",
+      clientname: "Masroor Ahmed Khan",
       clientfeedback:
         "Lorem ipsum edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis. ",
     },

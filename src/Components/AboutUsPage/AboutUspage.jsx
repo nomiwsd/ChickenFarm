@@ -69,14 +69,11 @@ const AboutUspage = () => {
       <div className="px-4 py-12 md:px-16 md:py-32 bg-[#ebebeb]">
         <div className="grid grid-cols-1 md:grid-cols-2 justify-start items-center">
           <div className="flex flex-col justify-start items-start gap-6">
-            <h1 className="font-merriweather text-[44px] font-normal leading-[94px]">
+            <h1 className="font-merriweather text-4xl font-normal leading-[94px]">
               Making it all make sense.{" "}
             </h1>
-            <p className="text-sm font-normal font-opensans">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedolorm
-              reminusto doeiusmod tempor incidition ulla mco laboris nisi ut
-              aliquip ex ea commo condorico consectetur adipiscing elitut
-              aliquip.{" "}
+            <p className="text-lg font-normal font-opensans">
+              We are representatives of all poultry farmers across Pakistan and your central resource for all poultry concerns. Feel free to give appropriate suggestions for the betterment of Farmer community.
             </p>
             <button className="bg-primarycl text-white text-base font-semibold font-opensans w-36 rounded-md py-3 px-3">
               Read More
@@ -89,28 +86,25 @@ const AboutUspage = () => {
         </div>
       </div>
       <div className="px-4 py-12 md:px-16 md:py-32">
-        <div className=" flex flex-col justify-center items-center gap-12 mb-24">
+        <div className=" flex flex-col justify-center items-center gap-4 mb-24">
           <h1 className="text-5xl font-opensans font-semibold leading-9">
             Your Vision, Our Future.
           </h1>
-          <p className="text-lg font-opensans font-normal text-center">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sedolorm
-            reminusto doeiusmod <br /> tempor incidition ulla mco laboris nisi
-            ut aliquip ex ea commo condorico consectetur <br /> adipiscing
-            elitut aliquip.
+          <p className="text-2xl font-opensans font-normal text-center">
+          Our aim is to give Poultry Farmers a separate but strong identity.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 px-6 md:px-16 lg:px-28">
           <div className="">
-            <img src={aboutimg2} alt="" />
+            <img src={aboutimg2} alt="" className="w-full h-full" />
           </div>
           <div>
             <div className="flex flex-col">
               <div className="flex flex-col md:flex-row">
                 <div
                   className={`cursor-pointer py-4 px-6 transition-all ease-in ${activeTab === "tab1"
-                      ? "bg-primarycl text-white scale-110 shadow-2xl"
-                      : "bg-gray-200"
+                    ? "bg-primarycl text-white scale-110 shadow-2xl"
+                    : "bg-gray-200"
                     }`}
                   onClick={() => handleTabClick("tab1")}
                 >
@@ -118,8 +112,8 @@ const AboutUspage = () => {
                 </div>
                 <div
                   className={`cursor-pointer py-4 px-6 transition-all ease-in ${activeTab === "tab2"
-                      ? "bg-primarycl text-white scale-110 shadow-2xl"
-                      : "bg-gray-200"
+                    ? "bg-primarycl text-white scale-110 shadow-2xl"
+                    : "bg-gray-200"
                     }`}
                   onClick={() => handleTabClick("tab2")}
                 >
@@ -127,8 +121,8 @@ const AboutUspage = () => {
                 </div>
                 <div
                   className={`cursor-pointer py-4 px-6 transition-all ease-in ${activeTab === "tab3"
-                      ? "bg-primarycl text-white  scale-110 shadow-2xl"
-                      : "bg-gray-200"
+                    ? "bg-primarycl text-white  scale-110 shadow-2xl"
+                    : "bg-gray-200"
                     }`}
                   onClick={() => handleTabClick("tab3")}
                 >

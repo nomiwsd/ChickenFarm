@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import mainimg from "../../assets/eggs.jpg";
 import smallimg1 from "../../assets/smallimg1.jpg";
 import smallimg2 from "../../assets/smallimg2.jpg";
-import smallimg3 from "../../assets/smallimg3.jpg";
+import smallimg3 from "../../assets/smallimg3.jpeg";
 import smallimg4 from "../../assets/smallimg4.jpg";
 import smallimg5 from "../../assets/smallimg5.jpg";
 import smallimg6 from "../../assets/smallimg6.jpg";
@@ -46,13 +46,13 @@ const Gallery = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <div className="relative overflow-hidden">
-              <img src={smallimg3} alt="" className="w-full max-h-full cardimg hover:scale-110" />
+              <img src={smallimg3} alt="" className="w-full h-full max-h-full cardimg hover:scale-110" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4 transition duration-300 ease-in-out ">
                 <h4 className="text-white font-merriweather font-bold gallery_para">{`Aenean rutrum dolor nibh`}</h4>
               </div>
             </div>
             <div className="relative overflow-hidden">
-              <img src={smallimg4} alt="" className="w-full max-h-full cardimg hover:scale-110" />
+              <img src={smallimg4} alt="" className="w-full  max-h-full cardimg hover:scale-110" />
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black via-transparent to-transparent p-4 transition duration-300 ease-in-out ">
                 <h4 className="text-white font-merriweather font-bold gallery_para">{`Maecenas massa eu blandit`}</h4>
               </div>

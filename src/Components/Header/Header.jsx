@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/logofarm.png";
+import logo from "../../assets/logofarm.jpeg";
 import { HiMiniBars3 } from "react-icons/hi2";
 import { GrClose } from "react-icons/gr";
 const Header = () => {

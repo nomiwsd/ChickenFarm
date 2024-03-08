@@ -18,46 +18,20 @@ const ContactusPage = () => {
               Our Office
             </h1>
             <p className="text-lg text-[#777] font-opensans font-normal">
-              I am text block. Click edit button to change this text. Lorem
-              ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus,
-              luctus nec ullamcorper mattis, pulvinar dapibus leo.
+ 1st floor, Commercial Plaza, 19 Nishter Block, Bahria Town Lahore
             </p>
           </div>
           <div className="flex gap-6">
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-4 pr-10">
               <h1 className="text-2xl text-[#333] font-merriweather font-bold">
-                Casablanca
+                Our Motive
               </h1>
-              <p className="text-sm text-[#777] font-opensans font-normal">
-                198 west 21th street, suit 721 barcelona 20020
+              <p className="text-base text-[#777] font-opensans font-normal">
+              We are representatives of all poultry farmers across Pakistan and your central resource for all poultry concerns. Feel free to give appropriate suggestions for the betterment of Farmer community.Our aim is to give Poultry Farmers a separate but strong identity.
               </p>
-              <div className="flex flex-col gap-3">
-                <p className="text-sm text-[#777] font-opensans font-normal">
-                  {" "}
-                  Email: ouremail@mail.com{" "}
-                </p>
-                <p className="text-sm text-[#777] font-opensans font-normal">
-                  phone: +80 800 800
-                </p>
-              </div>
+             
             </div>
-            <div className="flex flex-col gap-4">
-              <h1 className="text-2xl text-[#333] font-merriweather font-bold">
-                Tokyo
-              </h1>
-              <p className="text-sm text-[#777] font-opensans font-normal">
-                198 west 21th street, suit 721 barcelona 20020
-              </p>
-              <div className="flex flex-col gap-3">
-                <p className="text-sm text-[#777] font-opensans font-normal">
-                  {" "}
-                  Email: ouremail@mail.com{" "}
-                </p>
-                <p className="text-sm text-[#777] font-opensans font-normal">
-                  phone: +80 800 800
-                </p>
-              </div>
-            </div>
+            
           </div>
         </div>
         <div>

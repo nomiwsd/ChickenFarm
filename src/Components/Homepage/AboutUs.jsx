@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import mainimg from "../../assets/mainimg.jpg";
+import mainimg from "../../assets/mainimg.jpeg";
 import upperimg from "../../assets/upperimg.jpg";
 import lowerimg from "../../assets/lowerimg.jpg";
 import { testimonaildata } from "../../utils/data";
@@ -91,7 +91,7 @@ const AboutUs = () => {
                 >
                   <div className="flex flex-col  justify-center items-center">
                     <div>
-                      <img src={item.Image} alt="" className="rounded-full" />
+                      <img src={item.Image} alt="" className="rounded-full w-40 h-40" />
                     </div>
                     <h2 className="capatalize text-lg font-black font-montserrat text-[#2d2d2d]">
                       {item.clientname}{" "}
